@@ -1,6 +1,12 @@
 from typing import Literal
 
-from pydantic import RootModel, Field, BaseModel, PositiveInt, NonNegativeFloat, PositiveFloat
+from pydantic import (
+    RootModel,
+    Field,
+    BaseModel,
+    PositiveInt,
+    PositiveFloat
+)
 
 
 def get_power_plants(file_path='plants.json'):
@@ -43,6 +49,7 @@ class WindPlant(BaseModel):
     name: str
     installationCapacity: PositiveFloat
     model: str = None
+    productionYear: PositiveInt
     towerHeight: PositiveInt
     rotorDiameter: PositiveInt
     startSpeed: PositiveFloat
