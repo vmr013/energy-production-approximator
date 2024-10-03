@@ -32,6 +32,7 @@ class SolarPlant(BaseModel):
     numberOfModules: PositiveInt
     moduleCapacity: PositiveInt
     model: str = None
+    inverter: str = None
     numberOfInverters: PositiveInt
     inverterCapacity: PositiveInt
     geolocation: GeoLocation
