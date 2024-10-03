@@ -1,0 +1,32 @@
+[
+    {
+        "type": "SOLAR",
+        "name": "Solar Panels Farm",
+        "installationCapacity": 1.1,
+        "totalCapacity": 1100,
+        "numberOfModules": 1834,
+        "moduleCapacity": 600,
+        "model": "600W Risen 120-8-600M",
+        "numberOfInverters": 9,
+        "inverterCapacity": 110,
+        "geolocation": {
+            "latitude": 46.953021,
+            "longitude": 28.755979
+        }
+    },
+    {
+        "type": "WIND",
+        "name": "Wind Turbines Farm",
+        "installationCapacity": 1.3,
+        "model" : "NORDEX N60",
+        "towerHeight": 69,
+        "rotorDiameter": 60,
+        "startSpeed": 2.5,
+        "stopSpeed": 25,
+        "maxLimit": 1.3,
+        "geolocation": {
+            "latitude": 48.212883,
+            "longitude": 27.696193
+        }
+    }
+]
