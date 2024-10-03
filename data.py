@@ -52,4 +52,4 @@ class WindPlant(BaseModel):
 
 
 class PowerPlants(RootModel):
-    root: list[SolarPlant | WindPlant] = Field(discriminator='type')
+    root: list[SolarPlant | WindPlant]
